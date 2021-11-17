@@ -1,0 +1,183 @@
+{
+    // Personalisation
+    "window.title": "💻・${activeEditorShort} ⇒ 📁・${rootName}",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vikings-icon-theme",
+    // Font Settings $ Editor
+    "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.codeLensFontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 1.2,
+    "editor.autoIndent": "full",
+    "editor.fontWeight": "300",
+    "editor.fontSize": 13.5,
+    "editor.lineHeight": 22,
+    // General $ Editor
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[python]": {
+        "editor.wordBasedSuggestions": true
+    },
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "workbench.editor.untitled.hint": "hidden",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.enablePreview": false,
+    "editorconfig.generateAuto": false,
+    "editor.suggestSelection": "first",
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.enabled": false,
+    "editor.suggest.preview": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editorconfig.template": "",
+    // Workbench
+    "workbench.colorCustomizations": {
+        "terminal.background": "#20201D",
+        "terminal.foreground": "#A6A28C",
+        "terminalCursor.background": "#A6A28C",
+        "terminalCursor.foreground": "#A6A28C",
+        "terminal.ansiBrightBlack": "#7D7A68",
+        "terminal.ansiBlack": "#20201D",
+        "terminal.ansiBrightWhite": "#FEFBEC",
+        "terminal.ansiWhite": "#A6A28C",
+        // Terminal Colour $ Regular
+        "terminal.ansiBrightYellow": "#AE9513",
+        "terminal.ansiYellow": "#AE9513",
+        "terminal.ansiBrightMagenta": "#B854D4",
+        "terminal.ansiMagenta": "#B854D4",
+        "terminal.ansiBrightBlue": "#6684E1",
+        "terminal.ansiBlue": "#6684E1",
+        "terminal.ansiBrightCyan": "#1FAD83",
+        "terminal.ansiCyan": "#1FAD83",
+        "terminal.ansiBrightGreen": "#60AC39",
+        "terminal.ansiGreen": "#60AC39",
+        "terminal.ansiBrightRed": "#D73737",
+        "terminal.ansiRed": "#D73737"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.tree.indent": 14,
+    // Terminal
+    "terminal.integrated.profiles.windows": {
+        "Terminal": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "overrideName": false
+        },
+        "Git Bash": null,
+        "Ubuntu": null
+    },
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "terminal.integrated.wordSeparators": " ()[]{}',\"`─",
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.enableFileLinks": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.showLinkHover": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.customGlyphs": true,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.bellDuration": 200,
+    "terminal.integrated.scrollback": 1000,
+    // Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+    "explorer.confirmDelete": false,
+    //Settings
+    "settingsSync.keybindingsPerPlatform": true,
+    "files.exclude": {
+        // Python Cache
+        "**/__pycache__/": true,
+        "__pycache__/": true,
+        // Python Venvs
+        "Scripts/": true,
+        "Include/": true,
+        "Lib/": true,
+        // Pipenv Files
+        "Pipfile.lock": true,
+        "Pipfile": true,
+        // Javascript Modules
+        "node_modules/": true,
+        "package.json": true,
+        // Vsode /
+        "**/.vscode": true,
+        "**/.idea": true,
+        "**/.git": false
+    },
+    "files.associations": {
+        "pre-commit": "git-commit"
+    },
+    "files.trimTrailingWhitespace": true,
+    "telemetry.telemetryLevel": "off",
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    // Settings $ Language and intellisense
+    // Language $ Python
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "python.analysis.completeFunctionParens": true,
+    "python.formatting.provider": "black",
+    "python.venvPath": "~/.virtualenvs",
+    // Intellisense $ Path Intellisense
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.showHiddenFiles": true,
+    "path-intellisense.mappings": {},
+    // Intellisense
+    // Misc
+    "debug.console.fontFamily": "JetBrainsMono Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "problems.showCurrentInStatus": true,
+    "zenMode.hideActivityBar": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // Extensions
+    // Error Lense
+    "errorLens.fontFamily": "JetBrainsMono Nerd Font",
+    "errorLens.statusBarColorsEnabled": true,
+    "errorLens.removeLinebreaks": false,
+    // Indent-Rainbow
+    "indentRainbow.ignoreLinePatterns": [
+        "/[ \t]* [*]/g",
+        "/[ \t]+[/]{2}/g"
+    ],
+    "indentRainbow.includedLanguages": [
+        "python",
+        "javascript"
+    ],
+    "indentRainbow.errorColor": "rgba(100, 20, 20, 0.20)",
+    "indentRainbow.colors": [
+        "rgba(90, 60, 60, 0.20)",
+        "rgba(90, 120, 90, 0.20)",
+        "rgba(120, 120, 150, 0.20)",
+        "rgba(180, 150, 150, 0.20)",
+        "rgba(180, 210, 180, 0.20)",
+        "rgba(210, 210, 240, 0.20)",
+        "rgba(255, 240, 240, 0.20)"
+    ],
+    // Toggle-Quotes
+    "togglequotes.chars": [
+        "`",
+        "'",
+        "\"",
+        "\"\"\""
+    ],
+    // Viking-Icons
+    "vikings-icon-theme.hidesExplorerArrows": false,
+    "vikings-icon-theme.folders.color": "#fdd835",
+    "vikings-icon-theme.folders.theme": "classic",
+    "vikings-icon-theme.saturation": 1,
+    "vikings-icon-theme.opacity": 0.7
+}
