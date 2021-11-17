@@ -1,0 +1,89 @@
+{
+    "about": {
+        "browser": "chrome",
+        "version": "1.10.1"
+    },
+    "background_blur": 2,
+    "background_bright": 0.48,
+    "background_type": "custom",
+    "clock": {
+        "ampm": true,
+        "analog": false,
+        "face": "none",
+        "seconds": false,
+        "timezone": "auto"
+    },
+    "css": "",
+    "cssHeight": 100,
+    "custom_every": "tabs",
+    "custom_time": 1637109565891,
+    "dark": "enable",
+    "dynamic": {
+        "collection": "",
+        "every": "hour",
+        "lastCollec": "day",
+        "time": 1634897108425
+    },
+    "font": {
+        "availWeights": ["100", "200", "300", "400", "500", "600", "700", "800"],
+        "family": "JetBrains Mono",
+        "size": "11",
+        "url": "https://fonts.googleapis.com/css?family=JetBrains Mono:100",
+        "weight": "100"
+    },
+    "greeting": "Asy",
+    "hide": [
+        [0, 0],
+        [0, 1, 0],
+        [0],
+        [1]
+    ],
+    "lang": "en",
+    "links": [{
+        "icon": "https://protonmail.com/images/favicon.ico",
+        "title": "Mail | 1",
+        "url": "https://mail.protonmail.com/u/1/inbox"
+    }, {
+        "icon": "https://protonmail.com/images/favicon.ico",
+        "title": "Mail | 2",
+        "url": "https://mail.protonmail.com/u/0/inbox"
+    }, {
+        "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "title": "Github",
+        "url": "https://github.com/O-Asymmetricity-O/"
+    }, {
+        "icon": "https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Logo.png",
+        "title": "Teams",
+        "url": "https://teams.microsoft.com/"
+    }, {
+        "icon": "https://explore.zoom.us/media/desktop-logo-zoombrand.png",
+        "title": "Zoom",
+        "url": "https://us04web.zoom.us/"
+    }],
+    "linksrow": 5,
+    "reviewPopup": "removed",
+    "searchbar": {
+        "engine": "google",
+        "newtab": false,
+        "on": true,
+        "opacity": 0.15,
+        "request": ""
+    },
+    "showall": true,
+    "usdate": false,
+    "weather": {
+        "ccode": "GB",
+        "city": "London",
+        "fcHigh": 11,
+        "lastState": {
+            "description": "overcast clouds",
+            "feels_like": 7,
+            "icon_id": 804,
+            "sunrise": 1637133733,
+            "sunset": 1637165342,
+            "temp_max": 11
+        },
+        "location": [],
+        "unit": "metric"
+    }
+}
