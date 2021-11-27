@@ -10,7 +10,7 @@ $ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 # Oh-My-fish
 $ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish```
-
+```
 ## Plugins and Themes
 
 ```bash
