@@ -2,7 +2,8 @@
 
 [`Arch Linux XFCE`](https://archlinuxgui.in/download.html#xfce)
 
-![image](https://user-images.githubusercontent.com/94440862/143620870-7cd9c237-a495-44fd-8c1b-571ba0fa8511.png)
+<a href="https://wallpapercave.com/wp/wp7607683.jpg"><img  src="https://user-images.githubusercontent.com/94440862/143620870-7cd9c237-a495-44fd-8c1b-571ba0fa8511.png"></a>
+
 
 
 ## Installation of yay
