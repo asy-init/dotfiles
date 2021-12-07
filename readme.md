@@ -1,3 +1,4 @@
+**OUTDATED**
 `Arch GUI Installer:`
 
 [`Arch Linux XFCE`](https://archlinuxgui.in/download.html#xfce)
