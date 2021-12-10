@@ -3,12 +3,14 @@ _______________________________  _______________________________
 |-----------------------------|  |-----------------------------|
 | - pkgs                      |  | - gtk                       |
 | - micro                     |  | - nvim                      |
-| - xfconf                    |  | - fish                      |
+|                             |  | - fish                      |
 | - install.sh                |  | - fonts                     |
 | - xfce4-wallpaper           |  | - autostart                 |
 | - librewolf-profile         |  | - ulauncher                 |
 | - lightdm-gtk-greeter       |  | - xarchiver                 |
 | - set cursor,theme,fonts    |  | - librewolf                 |
 |_____________________________|  | - xfce4-panel               |
+                                 | - misc configs              |
                                  | - xfce4-terminal            |
+                                 | - xfcee shortcuts kb        |
                                  |_____________________________|

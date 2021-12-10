@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo configuring xfce4 and xfwm4 keyboard shortcuts...
+mkdir ~/.config/xfce4/xfconf/xfce-perchannel-xml/ > /dev/null 2>&1
+mv ~/Downloads/dotfiles/xfce4/xfconf/xfce4-keyboard-shortcuts.xml  xfconf/xfce-perchannel-xml/ < /dev/null
+echo xfce4 and xfwm4 was successfully configured...
