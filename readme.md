@@ -1,56 +1,44 @@
-**OUTDATED**
 `Arch GUI Installer:`
 
 [`Arch Linux XFCE`](https://archlinuxgui.in/download.html#xfce)
 
-<a href="https://wallpapercave.com/wp/wp7607683.jpg"><img  src="https://user-images.githubusercontent.com/94440862/143620870-7cd9c237-a495-44fd-8c1b-571ba0fa8511.png"></a>
+
 
 
 
 ## Installation of yay
 ```bash
-$ sudo pacman -S git  base-devel
+$ sudo pacman -S git base-devel
 
 $ cd /opt
 
-$ sudo git clone https://aur.archlinux.org/yay-git.git
+$ sudo git clone https://aur.archlinux.org/yay-bin.git
 
-$ sudo chown -R asy:asy ./yay-git
+$ sudo chown -R asy:asy ./yay-bin
 
-$ cd yay-git
+$ cd yay-bin
 
 $ makepkg -si
 ```
 
-## All packages 
+## All packages
 
 ```bash
+# pacman
 
-$ yay -Sy brave-bin c-lolcat nerdfetch nerd-fonts-jetbrains-mono visual-studio-code-bin 
+$ sudo pacman -Sy fish jq aria2 neovim micro lsd xfce4-screenshooter
 
-$ sudo pacman -Sy jq aria2 htop thefuck lsd konsole fzf micro bat procs bottom fish
+# yay
 
-$ pip install bpytop 
+$ yay -Sy visual-studio-code-bin librewolf-bin ytop-bin nerdfetch ulauncher
 
-# Fisher
-$ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+# orphaned pkgs
 
-# Oh-My-fish
-$ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+$ yay --clean
+
+# clear pacman cache of pkgs that have been removed
+
+$ sudo pacman -Sc
 ```
-
-## Shell Plugins and Themes
-
-```bash
-
-# Plugins
-
-$ fisher install jorgebucaran/spark.fish jethrokuan/z jorgebucaran/autopair.fish 
-
-$ omf install weather fish-spec
-
-#Themes
-
-$ fisher install IlanCosman/tide
-```
-
+  
+<script src="https://gist.github.com/asy-init/453048a6a2ee23ed6ddc3a1791a5f951.js"></script>
