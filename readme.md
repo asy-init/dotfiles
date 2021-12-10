@@ -3,24 +3,6 @@
 [`Arch Linux XFCE`](https://archlinuxgui.in/download.html#xfce)
 
 
-
-
-
-## Installation of yay
-```bash
-$ sudo pacman -S git base-devel
-
-$ cd /opt
-
-$ sudo git clone https://aur.archlinux.org/yay-bin.git
-
-$ sudo chown -R asy:asy ./yay-bin
-
-$ cd yay-bin
-
-$ makepkg -si
-```
-
 ## All packages
 
 ```bash
