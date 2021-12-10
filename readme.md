@@ -40,5 +40,19 @@ $ yay --clean
 
 $ sudo pacman -Sc
 ```
-
-<script src="https://gist.github.com/asy-init/453048a6a2ee23ed6ddc3a1791a5f951.js"></script>
+```
+_______________________________  _______________________________
+|            [TODO]           |  |            [DONE]           |
+|-----------------------------|  |-----------------------------|
+| - pkgs                      |  | - gtk                       |
+| - micro                     |  | - nvim                      |
+| - xfconf                    |  | - fish                      |
+| - install.sh                |  | - fonts                     |
+| - xfce4-wallpaper           |  | - autostart                 |
+| - librewolf-profile         |  | - ulauncher                 |
+| - lightdm-gtk-greeter       |  | - xarchiver                 |
+| - set cursor,theme,fonts    |  | - librewolf                 |
+|_____________________________|  | - xfce4-panel               |
+                                 | - xfce4-terminal            |
+                                 |_____________________________|
+```
