@@ -1,0 +1,14 @@
+_______________________________  _______________________________
+|            [TODO]           |  |            [DONE]           |
+|-----------------------------|  |-----------------------------|
+| - pkgs                      |  | - gtk                       |
+| - micro                     |  | - nvim                      |
+| - xfconf                    |  | - fish                      |
+| - install.sh                |  | - fonts                     |
+| - xfce4-wallpaper           |  | - autostart                 |
+| - librewolf-profile         |  | - ulauncher                 |
+| - lightdm-gtk-greeter       |  | - xarchiver                 |
+| - set cursor,theme,fonts    |  | - librewolf                 |
+|_____________________________|  | - xfce4-panel               |
+                                 | - xfce4-terminal            |
+                                 |_____________________________|

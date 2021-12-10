@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo configuring xfce4-panel ...
+xfce4-panel-profiles load ~/Downloads/dotfiles/xfce4/conf/conf_panel.tar.bz2 < /dev/null
+sudo pacman -R xfce4-panel-profiles --noconfirm
+echo  xfce4-panel was successfully configured...

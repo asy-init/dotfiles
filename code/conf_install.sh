@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo configuring Visual Studio Code...
+echo
+echo modifying keybinds \& settings...
+echo
+sudo mv settings.json ~/.config/Code/User/
+sudo mv keybinds.json ~/.config/COde/User/
+echo all settings and keybinds have been configuired...
