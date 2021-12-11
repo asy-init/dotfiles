@@ -5,7 +5,9 @@
 <!--  Image for desktop preview [ soon ! ] -->
 
 ## All packages
-
+<br></br>
+`( run install.sh for automated install of complete setup )`
+<br></br>
 ```bash
 # pacman
 
