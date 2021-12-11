@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo configuring xfce4-terminal ...
-sudo cp ~/Downloads/dotfiles/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/ < /dev/null
+sudo cp -r ~/Downloads/dotfiles/xfce4/terminal/terminalrc ~/.config/xfce4/terminal/ < /dev/null
 echo  xfce4-terminal was successfully configured...

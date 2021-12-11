@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo configuiring kvantum...
-cp  ~/Downloads/dotfiles/kvantum/kvantum.kvconfig ~/.config/kvantum
+cp -r  ~/Downloads/dotfiles/kvantum/kvantum.kvconfig ~/.config/kvantum
 echo kvantum was successfully configured...

@@ -9,6 +9,6 @@ echo
 
 echo Installing ttf-jetbrains-mono-nerd-font ...
 sudo mkdir jetbrains-mono-nerd-font
-sudo cp * /usr/share/fonts/jetbrains-mono-nerd-font < /dev/null
+sudo cp -r * /usr/share/fonts/jetbrains-mono-nerd-font < /dev/null
 fc-cache -f -v < /dev/null
 echo  ttf-jetbrains-mono-nerd-font was successfully installed...

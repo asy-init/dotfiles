@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo configuiring xarchiver...
-cp ~/Downloads/dotfiles/xarchiver/xarchiverrc ~/.config/xarchiver < /dev/null
+cp -r ~/Downloads/dotfiles/xarchiver/xarchiverrc ~/.config/xarchiver < /dev/null
 echo paru was xarchiverrc configuired...

@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo configuiring micro_env...
-cp  ~/Downloads/dotfiles/micro/settings.json ~/.config/micro
+cp -r  ~/Downloads/dotfiles/micro/settings.json ~/.config/micro
 echo micro was successfully configured...
