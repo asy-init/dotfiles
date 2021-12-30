@@ -1,3 +1,6 @@
+re doing entire dotfiles ( dotfiles complete jus making an automated shell installer )
+
+
 `Arch GUI Installer:`
 
 [`Arch Linux XFCE`](https://archlinuxgui.in/download.html#xfce)
