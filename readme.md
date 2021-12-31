@@ -16,8 +16,11 @@ or
 git clone https://github.com/asy-init/dotfiles;cd dotfiles;chdmod u+x ./scripts;sh ./scripts/launch.sh
 ```
 `Preview`
-###### (soon)
 
+
+<img src="./assets/pic4.png">
+<img src="./assets/pic1.png">
+<img src="./assets/pic2.png">
 `Info:` 
 
 `Sys Info:`
