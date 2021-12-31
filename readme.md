@@ -19,7 +19,7 @@ git clone https://github.com/asy-init/dotfiles;cd dotfiles;chdmod u+x ./scripts;
 
 
 <img src="./assets/pic4.png">
-<img src="./assets/pic1.png">
+<img src="./assets/pic3.png">
 <img src="./assets/pic2.png">
 `Info:` 
 
