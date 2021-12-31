@@ -1,0 +1,21 @@
+/*
+┌─┐┬┌┬┐┌─┐┬  ┌─┐
+└─┐││││├─┘│  ├┤
+└─┘┴┴ ┴┴  ┴─┘└─┘
+┌─┐┌─┐─┐ ┬
+├┤ │ │┌┴┬┘
+└  └─┘┴ └─
+
+by Miguel Avila
+
+*/
+
+:root {
+  scrollbar-width: thin !important;
+}
+
+@-moz-document url(about:privatebrowsing) {
+  :root {
+    scrollbar-width: thin !important;
+  }
+}

@@ -1,0 +1,72 @@
+#                                       _____ __         ____
+#                                     / ___// /_  ___  / / /____
+#                                     \__ \/ __ \/ _ \/ / / ___/
+#                                    ___/ / / / /  __/ / (__  )
+#                                   /____/_/ /_/\___/_/_/____/
+
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
+
+#                                       ______               __
+#                                      / ____/____   ____   / /_ _____
+#                                     / /_   / __ \ / __ \ / __// ___/
+#                                    / __/  / /_/ // / / // /_ (__  )
+#                                   /_/     \____//_/ /_/ \__//____/
+
+font:
+  normal:
+
+    family: JetBrainsMono Nerd Font Mono
+    style: medium
+  size: 13.5
+
+window:
+   dimensions:
+     columns: 79
+     lines: 26
+
+
+#                       ______      __                    _____      __
+#                      / ____/___  / /___  __  _______   / ___/_____/ /_  ___  ____ ___  ___
+#                     / /   / __ \/ / __ \/ / / / ___/   \__ \/ ___/ __ \/ _ \/ __ `__ \/ _ \
+#                    / /___/ /_/ / / /_/ / /_/ / /      ___/ / /__/ / / /  __/ / / / / /  __/
+#                    \____/\____/_/\____/\__,_/_/      /____/\___/_/ /_/\___/_/ /_/ /_/\___/
+
+# Colour Theme : Nord Theme modified
+# Colors (Nord)
+colors:
+  # Default colors
+  primary:
+    background: '#292828'
+    foreground: '0xD8DEE9'
+
+  # Normal colors
+  normal:
+    black:   '0x3B4252'
+    red:     '0xBF616A'
+    green:   '0xA3BE8C'
+    yellow:  '0xEBCB8B'
+    blue:    '0x81A1C1'
+    magenta: '0xB48EAD'
+    cyan:    '0x88C0D0'
+    white:   '0xE5E9F0'
+
+  # Bright colors
+  bright:
+    black:   '0x4C566A'
+    red:     '0xBF616A'
+    green:   '0xA3BE8C'
+    yellow:  '0xEBCB8B'
+    blue:    '0x81A1C1'
+    magenta: '0xB48EAD'
+    cyan:    '0x8FBCBB'
+    white:   '0xECEFF4'
+
+
+cursor:
+  style: Underline
+  blink_interval: 750
+  unfocused_hollow: false
+  dynamic_padding: true
